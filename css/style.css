@@ -1,0 +1,101 @@
+body{
+background: rgba(48,30,19,1);
+background: -moz-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48,30,19,1)), color-stop(15%, rgba(107,86,73,1)), color-stop(100%, rgba(107,86,73,1)));
+background: -webkit-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
+background: -o-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
+background: -ms-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
+background: linear-gradient(to bottom, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#301e13', endColorstr='#6b5649', GradientType=0 );
+}
+#wrapper{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-image: url('D:/web/Works/TF2c Tournament/img/tf2_wood.jpg');
+    background-repeat: repeat;
+    background-position: center; 
+    -webkit-box-shadow: 0px 0px 60px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 60px 20px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 60px 20px rgba(0,0,0,0.75);
+}
+.title{
+padding: 10px;
+}
+#announce_img_1{
+width: 100%;
+}
+#card_1{
+position: relative;
+padding-top: 110px;
+}
+#card_2{
+position: relative;
+padding-top: 300px;
+padding-bottom: 100px;
+}
+#card_3{
+margin: auto;
+width: 100%;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+#card_4{
+
+padding-bottom: 100px;
+}
+/*Menu*/
+#menu{
+margin: auto;
+width: 80%;
+padding: 30px;
+background: #8c6d57;
+}
+#menu li{
+display: inline;
+}
+#icon img{
+padding-left: 16px;
+width: 128px;
+}
+#title_maps{
+margin: auto;
+width: 40%;
+padding: 10px;
+}
+#title_about{
+margin: auto;
+width: 40%;
+padding: 10px;
+}
+#title_contact{
+margin: auto;
+width: 40%;
+padding: 10px;
+}
+h2{
+background:white;
+border-radius: 5px;
+padding: 15px !important;
+text-align: center;
+}
+a:link{
+color:black;
+}
+a:hover{
+color:red;
+}
+a:visited{
+color:black;
+}
+a:selected{
+color:blue;
+}
+footer{
+background: #161617;
+padding: 20px !important;
+}
+h3{
+text-align: center;
+color:white;
+}
