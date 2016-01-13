@@ -1,12 +1,11 @@
 body{
-background: rgba(48,30,19,1);
-background: -moz-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48,30,19,1)), color-stop(15%, rgba(107,86,73,1)), color-stop(100%, rgba(107,86,73,1)));
-background: -webkit-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
-background: -o-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
-background: -ms-linear-gradient(top, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
-background: linear-gradient(to bottom, rgba(48,30,19,1) 0%, rgba(107,86,73,1) 15%, rgba(107,86,73,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#301e13', endColorstr='#6b5649', GradientType=0 );
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25201d+0,33211a+100 */
+background: rgb(37,32,29); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(37,32,29,1) 0%, rgba(51,33,26,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(37,32,29,1) 0%,rgba(51,33,26,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(37,32,29,1) 0%,rgba(51,33,26,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25201d', endColorstr='#33211a',GradientType=0 ); /* IE6-9 */
+
 }
 #wrapper{
     margin: auto;
@@ -49,7 +48,13 @@ padding-bottom: 100px;
 margin: auto;
 width: 80%;
 padding: 30px;
-background: #8c6d57;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b2a13+13,240e0b+75 */
+background: rgb(75,42,19); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(75,42,19,1) 13%, rgba(36,14,11,1) 75%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(75,42,19,1) 13%,rgba(36,14,11,1) 75%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(75,42,19,1) 13%,rgba(36,14,11,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b2a13', endColorstr='#240e0b',GradientType=0 ); /* IE6-9 */
+
 }
 #menu li{
 display: inline;
@@ -92,10 +97,16 @@ a:selected{
 color:blue;
 }
 footer{
-background: #161617;
-padding: 20px !important;
+background:#33211A;
+padding: 5px !important;
+color:black;
 }
 h3{
 text-align: center;
 color:white;
+}
+.fotorama{
+width: 900px;
+  margin-left: auto ;
+  margin-right: auto ;
 }
